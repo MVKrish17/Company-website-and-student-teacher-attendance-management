@@ -1,0 +1,77 @@
+.adminmain{
+    background-image: linear-gradient(rgba(12, 12, 12, 0.367) , rgba(12, 12, 12, 0.367) ), url("../Assets/announcements.png");
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+}
+.admin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: repeat;
+    gap:20px;
+    padding: 100px;
+    .top-bar{
+        display: grid;
+        grid-template-columns: auto auto;
+        align-items: center;
+        justify-content: center ;
+        gap: 300px;
+    }
+    .wow{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: end;
+        gap: 12px;
+    }
+}
+table, th, td {
+    border: 2px solid rgb(16, 16, 16);
+    border-collapse: collapse;
+    padding: 10px 18px;
+}
+
+.le{
+    border: none;
+}
+tr>td{
+    background-color:#606162;
+}
+table{
+    border: none;
+    width: 1000px;
+}
+td{
+    text-align: center;
+    font-family: initial;
+}
+
+
+.a{
+    background-color:#194B2A;
+    color:white;
+}
+.b{
+    background-color: #5C0D0D;
+    color:white;
+}
+.c{
+    background-color: #162446;
+    color:white;
+}
+.options{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+}
+.date-place{
+    color: white;
+}
+
+
+
+
+

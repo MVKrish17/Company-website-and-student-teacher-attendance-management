@@ -1,0 +1,19 @@
+.event-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+    /* border: 2px white solid; */
+    padding: 30px;
+}
+.event-title{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+} 
+.learn{
+    font-size: 20px;
+    color:rgb(18, 99, 169);
+}

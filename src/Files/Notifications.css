@@ -1,0 +1,40 @@
+.notify-container{
+    background-image: linear-gradient(rgba(74, 69, 69, 0.367) , rgba(24, 26, 24, 0.367) ), url("../Assets/announcements.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 80px 120px;
+}
+.ntitle{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.notify-elements{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    font-size: 18px;
+    border: none;
+    padding: 8px 15px;
+    background: transparent;
+    color: rgb(164, 164, 164);
+    font-weight: 700;
+}
+
+.button:active{
+    color:rgb(74, 74, 74);
+}

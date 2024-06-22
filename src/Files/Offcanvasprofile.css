@@ -1,0 +1,11 @@
+.upper{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.name{
+    color: white;
+    font-size: 18px;
+}

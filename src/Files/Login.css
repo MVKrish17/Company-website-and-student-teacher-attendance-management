@@ -1,0 +1,116 @@
+.loginPage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 80px;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.367) , rgba(12, 12, 12, 0.367) ), url("../Assets/back.png");
+}
+input{
+    color: white;
+}
+
+.register{
+    padding: 50px 60px 50px 60px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background:rgba(255,255,255,0.4);
+    .title{
+        font-size:40px;
+        text-align:center;
+        font-weight: 100;
+        border-bottom: 2px black solid;
+    }
+    label{
+        font-size:16px;
+    }
+    .TandC{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        div{
+            font-size: 14px;
+        }
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        input[type="password"] {
+            background: #000000;
+        }
+        .form-filling{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .feilds{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            align-items: center;
+            column-gap: 10px;
+            label{
+                text-align: end;
+            }
+            input{
+                width: 200px;
+                border: none;
+                padding: 5px;
+                border-radius: 3px;
+            }
+        }  
+        button[type="submit"]{
+            border: none;
+            font-size: 20px;
+            border-radius: 3px;
+            padding: 10px 20px;
+        }      
+    }
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: black;
+    padding: 50px 50px 210px 50px;
+    background-color: white;
+    .people{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    img{
+        width: 120px;
+        height: 120px;
+    }
+    .title1{
+        font-size:40px;
+        text-align:center;
+        font-weight: 100;
+        border-bottom: 2px black solid;
+    }
+}
+.terms{
+    height: 15px;
+    width: 15px;
+}

@@ -1,0 +1,160 @@
+
+.studentlogin{
+    padding: 75px 0 50px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.367) , rgba(12, 12, 12, 0.367) ), url("../Assets/studentLogin.png");
+}
+.text1{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+
+.rightBox{
+    
+    gap:15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 50px 50px 50px;
+    background:rgb(255, 255, 255);
+    background-image: linear-gradient(rgba(12, 12, 12, 0.9) , rgba(12, 12, 12, 0.9) ), url("../Assets/leftbox.jpg");
+    
+}
+.profile{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    
+}
+.login1{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap:15px;
+    input{
+        background: transparent;
+        border: none;
+        outline: none;
+        margin-left: 10px;
+        font-size: 18px;
+        color: white;
+    }
+}
+.logo1{
+    display:flex;
+    position:absolute;
+    justify-content: center;
+    align-items:center;
+    font-size:26px;
+    color:white;
+    border:3px solid white;
+    border-radius: 50%;
+    height:30px;
+    width: 30px;
+}
+::placeholder{
+
+    color:white;
+    font-size: 15px;
+}
+.logoAndname{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+}
+.remember{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    input{
+        height: 13px;
+        width: 13px;
+    }
+}
+.text4,.link1{
+    color:white;
+    font-size:15px;
+}
+.b1{
+    background-color: gold;
+    height:35px;
+    width: 120px;
+    border:none;
+    border-radius: 50px;
+}
+.sub{
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.bottom{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap: 10px;
+}
+.b2{
+    border:2px white solid;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50px;
+    text-align: center;
+    a{
+        text-decoration: none;
+    }
+}
+.link2{
+    font-size: 15px;
+    padding:0 10px;
+    color:white;
+}
+.text2{
+    font-size: 12px;
+    color:white;
+}
+.distance{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap:40px;
+}
+.both1{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap:30px;
+}
+.both2{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+}
+.username{
+    display: flex;
+    flex-direction: row;
+    padding: 8px 10px;
+    border-radius: 30px;
+    color: black;
+    border: 2px white solid;
+}

@@ -1,0 +1,15 @@
+.gallery-container{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: start;
+    /* border: 2px white solid; */
+    padding: 30px;
+}
+.gallery-title{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+} 

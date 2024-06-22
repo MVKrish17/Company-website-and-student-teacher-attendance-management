@@ -1,0 +1,14 @@
+.off_menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 15px;
+    font-weight: bold;
+}

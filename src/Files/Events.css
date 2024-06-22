@@ -1,0 +1,28 @@
+.events {
+    background-image: linear-gradient(rgba(12, 12, 12, 0.367) , rgba(24, 26, 24, 0.367) ), url("../Assets/events.png");
+    padding: 50px 0px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.heading ,.gallery{
+    color: white;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px 80px;
+}
+
+.event-items,.gallery-items{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.head{
+    color:white;
+    padding: 10px 0px;
+}
+
+

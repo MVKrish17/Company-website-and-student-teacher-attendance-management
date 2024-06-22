@@ -1,0 +1,32 @@
+.addnotify{
+        background-image: linear-gradient(rgba(74, 69, 69, 0.367) , rgba(24, 26, 24, 0.367) ), url("../Assets/Admin.png");
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        gap:20px;
+        padding: 250px;
+}
+
+.enterm,.enterd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap:50px;
+}
+.tag{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    color:gray;
+}
+.but{
+    background-color:rgb(26, 153, 173);
+
+}
+.in{
+    width:150px;
+    height:20px
+}

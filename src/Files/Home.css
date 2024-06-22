@@ -1,0 +1,38 @@
+.homepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 5px red solid; */
+    margin-top: 100px;
+    background-repeat: repeat;
+    background-image: linear-gradient(rgba(12, 12, 12, 0.367) , rgba(12, 12, 12, 0.367) ), url("../Assets/home.png");
+    background-attachment: fixed;
+    background-size: cover;
+}
+marquee{
+        background-color: #2F3A45;
+        padding:0.5% 0%;
+        margin-top:30px;
+        color: white;
+}
+
+.homepage h1{
+    color: white;
+    text-align: center;
+}
+
+.images{
+    height:200px;
+    width: 500px;
+    background:rgba(48, 60, 65, 0.367)
+}
+.homepage-part{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 50px;
+    gap: 50px;
+}
